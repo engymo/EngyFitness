@@ -32,3 +32,18 @@
   ],
   "exclude": ["node_modules"]
 }
+
+//       colors: {
+//         primary: "#8B5E3C",     // بني دافئ (الأزرار والعناوين)
+//         secondary: "#C8A58B",   //  خلفيات بني فاتح / بيج غامق
+//         accent: "#E6D5C3",      // بيج فاتح جدًا
+//         background: "#F7F3EF",  // خلفية الموقع
+//         section: "#EFE7E1",     // خلفيات السيكشنات
+//         dark: "#2B2B2B",        // النص الأساسي
+//         lightText: "#7A7A7A",   // نص ثانوي
+//         whiteSoft: "#FFFFFF",   // كروت / باكج
+//         border: "#E0D6CE",      // حدود خفيفة
+//       }
+//     }
+//   }
+// }
