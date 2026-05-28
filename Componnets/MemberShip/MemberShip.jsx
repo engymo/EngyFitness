@@ -3,7 +3,7 @@ import React from 'react'
 const MemberShip = () => {
     return (
         <div className='bg-[#F5F5F5]'>
-            <section className="container mx-auto px-4 " id="#membership">
+            <section className="container mx-auto px-4 " id="membership">
 
                 {/* Bottom CTA */}
                 <div className="mt-24 bg-[#ead7cf] rounded-[40px] py-20 px-8 text-center">

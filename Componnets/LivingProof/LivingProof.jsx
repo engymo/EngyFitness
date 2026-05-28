@@ -5,7 +5,7 @@ import { testimonials } from '../../Data/LivingProof'
 const LivingProof = () => {
     return (
         <>
-            <section className="container mx-auto px-4 mt-20" id="#livingproof">
+            <section className="container mx-auto px-4 mt-20" id="livingProof">
 
                 {/* Heading */}
                 <div className="text-center mb-14">

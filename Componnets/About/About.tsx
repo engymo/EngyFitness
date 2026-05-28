@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       className='container mx-auto px-4
-      flex flex-col lg:flex-row items-center mt-20' id='#about'
+      flex flex-col lg:flex-row items-center mt-20' id='about'
     >
 
       {/* Image Section */}

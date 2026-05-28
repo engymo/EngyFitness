@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 function Programes() {
     return (
         <div className='bg-[#F5F5F5]'>
-            <section className="container mx-auto px-4 mt-20" id="#programes">
+            <section className="container mx-auto px-4 mt-20" id="programes">
                 <div className='flex flex-col lg:flex-row lg:justify-between justify-start lg:items-center items-start' >
                     <div className='pt-10'>
                         <span className='text-[#7A7A7A] text-xs '>CURATED PROGRAMS</span>

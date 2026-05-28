@@ -3,7 +3,7 @@ import { plansData } from '@/Data/Plans'
 const Plans = () => {
     return (
         <div className='bg-[#F5F5F5]'>
-            <section className="container mx-auto px-4 " id="#plans">
+            <section className="container mx-auto px-4 " id="plans">
                 <div className="max-w-6xl mx-auto">
 
                     {/* Heading */}

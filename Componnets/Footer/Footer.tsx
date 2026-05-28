@@ -1,5 +1,6 @@
 import React from 'react'
 import { footerLinks, socialLinks } from '@/Data/FooterData'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -8,24 +9,20 @@ const Footer = () => {
 
         {/* Logo */}
         <div>
-          <h2 className="text-2xl italic font-serif text-[#8b5a44]">
+          <Link className="text-2xl italic font-serif text-[#8b5a44]" href="/">
             Engy Fitness
-          </h2>
+          </Link>
         </div>
-        {/* Social + Copyright */}
-
+        {/* Links */}
         <div className="flex flex-row justify-center items-center gap-4 text-[#8b5a44] text-lg">
-
-          {/* Instagram */}
           {socialLinks.map((link, index) => (
             <a key={index} href={link.link} target="_blank" >
               <span>{link.icon}</span>
             </a>
           ))}
         </div>
-        {/* Links */}
         <div>
-          <ul className="flex flex-wrap items-center justify-center gap-6 text-sm text-[#7d6e66] uppercase tracking-wide">
+          <ul className="flex flex-wrap items-center gap-2 text-sm text-[#7d6e66] uppercase tracking-wide">
             {footerLinks.map((link, index) => (
               <li key={index} className="hover:text-[#8b5a44] transition cursor-pointer"  >
                 {link}
