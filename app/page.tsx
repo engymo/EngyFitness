@@ -3,14 +3,16 @@ import Header from "@/Componnets/Header/Header";
 import Programes from "@/Componnets/Programes/Programes";
 import LivingProof from "@/Componnets/LivingProof/LivingProof";
 import MemberShip from "@/Componnets/MemberShip/MemberShip";
+import Plans from "@/Componnets/Plans/Plans";
 export default function Home() {
   return (
-      <main className="">
-       <Header />
-       <About />
-       <Programes />
-       <LivingProof />
-       <MemberShip />
-      </main>
+    <main className="">
+      <Header />
+      <About />
+      <Programes />
+      <LivingProof />
+      <Plans />
+      <MemberShip />
+    </main>
   );
 }

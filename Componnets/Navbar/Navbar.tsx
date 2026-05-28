@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='bg-[#E0D6CE] container mx-auto px-5 w-full h-16 shadow-md flex items-center 
-    justify-between sticky top-0 left-0 z-10 rounded-full mt-2 lg:mt-5'>
+    justify-between sticky top-2 left-0 z-10 rounded-full '>
 
       {/* Logo */}
       <a href='/' className='text-2xl font-medium italic text-[#8B5E3C] font-serif'>

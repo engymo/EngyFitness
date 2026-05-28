@@ -5,12 +5,29 @@ const MemberShip = () => {
         <div className='bg-[#F5F5F5]'>
             <section className="container mx-auto px-4 " id="#membership">
 
-                <div className='text-center mt-20 flex flex-col gap-4' >
-                    <span className='text-[#7A7A7A] text-xs pt-4'>MEMBERSHIP</span>
-                    <h6 className='text-[#8B5E3C] italic text-4xl font-serif'>Join the Engy Fitness Community</h6>
-                    <p className='text-[#7A7A7A] text-xs max-w-2xl mx-auto'> Our membership offers exclusive access to personalized workout plans,
-                        expert guidance, and a supportive community that will help you achieve your fitness goals.
-                        Join us today and start your journey towards a healthier, stronger you.</p>
+                {/* Bottom CTA */}
+                <div className="mt-24 bg-[#ead7cf] rounded-[40px] py-20 px-8 text-center">
+
+                    <h2 className="text-4xl md:text-5xl font-serif italic text-[#8b5a44] mb-6">
+                        Ready to transform your lifestyle?
+                    </h2>
+
+                    <p className="text-[#7a6c65] max-w-2xl mx-auto mb-10">
+                        Every coaching experience is tailored to your unique goals,
+                        lifestyle, and journey.
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+
+                        <button className="bg-[#8b4d33] text-white px-8 py-4 rounded-full shadow-xl hover:scale-105 transition">
+                            Apply for Coaching
+                        </button>
+
+                        <button className="bg-white text-[#8b5a44] px-8 py-4 rounded-full hover:bg-[#f7f1ec] transition">
+                            Explore Free Resources
+                        </button>
+
+                    </div>
                 </div>
 
             </section>
