@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#E0D6CE] container mx-auto px-5 w-full h-16 shadow-md flex items-center 
-    justify-between sticky lg:top-2 top-0 left-0 z-10 rounded-full">
+    justify-between sticky top-0 left-0 z-10 rounded-full">
 
       {/* Logo */}
       <Link href="/" className="text-2xl font-bold italic text-[#8B5E3C] font-serif">
