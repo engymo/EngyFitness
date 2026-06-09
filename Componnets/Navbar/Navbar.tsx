@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { IoFitness } from "react-icons/io5";
-import { navLinks } from "@/Data/navLinks"; 
+import { navLinks } from "@/Data/navLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -28,16 +28,18 @@ const Navbar = () => {
 
       {/* Button */}
       <div className="hidden md:block">
-        <button className="px-4 py-2 text-md font-semibold rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
+        <Link href="/ritual" className="px-4 py-2 text-sm font-semibold rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
           Start Ritual
-        </button>
+        </Link>
       </div>
 
       {/* Mobile Icon */}
       <div className="md:hidden">
+
         <button onClick={() => setOpen(!open)} className="text-[#8B5E3C] text-3xl">
           <IoFitness size={30} />
         </button>
+
       </div>
 
       {/* Mobile Menu */}
@@ -50,9 +52,9 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <button className="px-4 py-2 text-sm font-medium rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
+          <Link href="/ritual" className="px-4 py-2 text-sm font-medium rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
             Start Ritual
-          </button>
+          </Link>
         </div>
       )}
     </nav>
