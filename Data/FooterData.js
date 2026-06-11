@@ -24,7 +24,7 @@ export const socialLinks = [
   {
     icon: <IoLogoWhatsapp />
 ,
-    link: "https://wa.me/201214288118",
+    link: "https://wa.me/201224288118",
     style: "text-2xl color-green-400 hover:text-[#9c5b3f] transition"
   },
 ]
