@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProgramesData } from '../../Data/ProgramesData'
+import { ProgramesData } from '../../../Data/ProgramesData'
 import { FaArrowRight } from "react-icons/fa6";
 
 function Programes() {

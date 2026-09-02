@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const MemberShip = () => {
@@ -19,17 +20,18 @@ const MemberShip = () => {
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 
-                        <button className="bg-[#8b4d33] text-white px-8 py-4 rounded-full shadow-xl hover:scale-105 transition">
+                        <a href="https://www.instagram.com/coachengy?igsi=dWpua3p2aGlkbGhl" target='_blank'
+                         className="bg-[#8b4d33] text-white px-8 py-4 rounded-full shadow-xl hover:scale-105
+                          transition">
                             Apply for Coaching
-                        </button>
+                        </a>
 
-                        <button className="bg-white text-[#8b5a44] px-8 py-4 rounded-full hover:bg-[#f7f1ec] transition">
+                        <Link href ="/BodyFatCalc" className="bg-white text-[#8b5a44] px-8 py-4 
+                        rounded-full hover:bg-[#f7f1ec] transition">
                             Explore Free Resources
-                        </button>
-
+                        </Link>
                     </div>
                 </div>
-
             </section>
 
         </div>

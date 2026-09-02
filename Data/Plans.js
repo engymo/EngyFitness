@@ -8,7 +8,6 @@ export const plansData = [
       "Weekly Check-ins",
       "Community Support",
     ],
-    button: "Apply Now",
     featured: false,
   },
   {
@@ -22,6 +21,7 @@ export const plansData = [
     ],
     button: "Start Your Journey",
     featured: true,
+    link:"https://www.instagram.com/coachengy?igsi=dWpua3p2aGlkbGhl"
   },
   {
     title: "Elite Coaching",
@@ -32,7 +32,7 @@ export const plansData = [
       "Priority Support",
       "Private Consultations",
     ],
-    button: "Book Consultation",
     featured: false,
+
   },
 ];

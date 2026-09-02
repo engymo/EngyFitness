@@ -1,5 +1,5 @@
 import React from 'react'
-import { testimonials } from '../../Data/LivingProof'
+import { testimonials } from '../../../Data/LivingProof'
 
 
 const LivingProof = () => {

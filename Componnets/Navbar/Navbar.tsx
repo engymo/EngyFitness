@@ -28,7 +28,7 @@ const Navbar = () => {
 
       {/* Button */}
       <div className="hidden md:block">
-        <Link href="/ritual" className="px-4 py-2 text-sm font-semibold rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
+        <Link href="/Ritual" className="px-4 py-2 text-sm font-semibold rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
           Start Ritual
         </Link>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <Link href="/ritual" className="px-4 py-2 text-sm font-medium rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
+          <Link href="/Ritual" className="px-4 py-2 text-sm font-medium rounded-full bg-[#8B5E3C] text-[#E6D5C3] cursor-pointer">
             Start Ritual
           </Link>
         </div>
